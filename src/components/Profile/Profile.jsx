@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import css from './Profile.module.css';
 import userData from '../../userData.json';
 
