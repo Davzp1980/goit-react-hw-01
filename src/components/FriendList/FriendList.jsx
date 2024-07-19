@@ -1,5 +1,5 @@
-import FriendListItem from './FriendListItem/FriendListItem';
-import css from './FriendListItem/FriendListItem.module.css';
+import FriendListItem from '../FriendListItem';
+import css from './FriendList.module.css';
 
 function FriendList({ friends }) {
   return (
