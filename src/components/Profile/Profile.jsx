@@ -1,5 +1,4 @@
 import css from './Profile.module.css';
-import userData from '../../userData.json';
 
 function Profile({ username, tag, location, stats, image }) {
   return (
@@ -18,11 +17,11 @@ function Profile({ username, tag, location, stats, image }) {
         </li>
         <li className={css.li}>
           <span className={css.spanName}>Views</span>
-          <span className={css.spanNumber}>{userData.stats.views}</span>
+          <span className={css.spanNumber}>{stats.views}</span>
         </li>
         <li className={css.li}>
           <span className={css.spanName}>Likes</span>
-          <span className={css.spanNumber}>{userData.stats.likes}</span>
+          <span className={css.spanNumber}>{stats.likes}</span>
         </li>
       </ul>
     </div>
