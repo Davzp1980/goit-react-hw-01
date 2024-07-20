@@ -1,6 +1,6 @@
 import './App.css';
 import Profile from './components/Profile/Profile';
-import * as userData from '../src/userData.json';
+import userData from './userData.json';
 import friends from './friends.json';
 import transactions from './transaction.json';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
